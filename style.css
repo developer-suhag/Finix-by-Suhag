@@ -12,7 +12,8 @@ h6 {
 }
 /* header */
 
-.main-header .container-fluid {
+.main-header .container-fluid,
+slider-section .container-fluid {
     max-width: 1330px;
 }
 
@@ -71,7 +72,7 @@ body .btn-primary:hover::after {
 ul.our-primary-menu li a {
     text-decoration: none;
     display: inline-block;
-    padding: 17px;
+    padding: 14px 14px;
     color: #111111;
     font-size: 16px;
     font-weight: 500;
@@ -89,6 +90,7 @@ ul.our-primary-menu li:hover > a {
 /* dropdown menu */
 ul.our-primary-menu li {
     position: relative;
+
 }
 ul.our-primary-menu li ul {
     position: absolute;
@@ -113,6 +115,7 @@ ul.our-primary-menu li ul li {
 ul.our-primary-menu li span {
     font-size: 12px;
     margin-left: 5px;
+
 }
 ul.our-primary-menu li ul li a:hover {
     letter-spacing: 1px;
