@@ -16,7 +16,9 @@ h6 {
 slider-section .container-fluid {
     max-width: 1330px;
 }
-
+img{
+    max-width: 100%;
+}
 body .btn-primary {
     border: none;
     background-color: #e73c3e !important;
@@ -273,4 +275,90 @@ ul.our-primary-menu li:hover ul {
 
 .header-social ul li a:hover {
     color: #e73c3e;
+}
+
+/* logo section */
+.logo-section{
+    border-bottom: 1px solid #ddd;
+}
+/* about section */
+.about-image{
+    position: relative;
+}
+
+.about-img-text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: url(img/shape.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-img-text h2{
+    font-size: 65px;
+    color: #e73c3e;
+    margin-bottom: 5px;
+    line-height: 1;
+}
+.about-img-text p{
+    color: #111111;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.about-text{}
+/* default text style */
+.finix-text{}
+.finix-text h6{
+    color: #e73c3e;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.finix-text h1{
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    line-height: 1.2;
+}
+.finix-text p{
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.finix-text strong{
+    font-size: 18px;
+    color: #606060;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.finix-text ul{
+    list-style: none;
+    margin-top: 15px;
+    padding-left: 0;
+}
+.finix-text ul li{
+    color: #606060;
+    padding: 8px 0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.finix-text ul li::before {
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    color: #e73c3e;
+    display: inline-block;
+    font-size: 17px;
+    margin-right: 10px;
 }
